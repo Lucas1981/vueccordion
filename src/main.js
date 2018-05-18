@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Accordion from './accordion/accordion.js';
-import "./main.css";
+import "./main.scss";
 
 (function(Vue, Accordion) {
   'use strict';
