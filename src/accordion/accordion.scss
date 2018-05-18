@@ -1,0 +1,31 @@
+$number-of-units: 20;
+$unit-size: 48px;
+$margin-size: 2px;
+
+.container {
+  margin-left: 220px;
+  width: $number-of-units * ($unit-size + $margin-size);
+}
+
+.unit {
+  width: $unit-size;
+  height: $unit-size;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  margin: $margin-size;
+  text-align: center;
+  line-height: $unit-size;
+  box-sizing: border-box;
+}
+
+.key {
+  background: grey;
+  border: 3px solid blue;
+  border-radius: $unit-size / 2;
+  color: white;
+}
+
+.key:active {
+  background: black;
+}
